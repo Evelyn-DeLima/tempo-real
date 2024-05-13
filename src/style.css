@@ -60,27 +60,28 @@ main {
 }
 .weather-app-temperature {
 }
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.weatehr-app-unit {
+  font-size: 40px;
+}
+
 footer {
   border-top: 1px solid #d4fc79;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
-}
-.weather-app-temperature-container {
-  display: flex;
-}
-.weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-}
-
-.weather-app-temperature {
-  font-size: 88px;
-  margin-left: 10px;
-  font-weight: bold;
-}
-
-.weatehr-app-unit {
-  font-size: 40px;
 }
